@@ -196,4 +196,18 @@ Number(1e3);
 Number(true);
 Number(false);
 
+// Propiedades
+// cosntructor: Devuelve la función contructora nativa.
+// prototype:   Permite añadir nuevas propiedades y métodos al objeto.
 
+// Métodos
+
+// Métodos isFinite
+isFinite(200);
+isFinite('200');
+isFinite('hola');
+
+// Métodos isNaN
+isNaN(200);
+isNaN('200');
+isNaN('hola');

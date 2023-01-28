@@ -138,3 +138,62 @@ Acepta un segundo parámetro que indica dónde se debe empezar a realizar la bú
 
 'Hola mundo          '.trim();
 '  Hola mundo          '.trim();
+
+// Conversión de Strings
+
+parseInt('4');
+parseInt('hola');
+parseInt('21 calles');
+parseInt('1e3');
+parseFloat('1.5');
+parseFloat('1,5');
+
+String(new Date());
+
+// Formateado de Strings
+
+/* Literales de cadena */
+('Esto es un literal de cadena');
+('Esto es otro literal de cadena');
+
+/* Secuencia escapada en hexadecimal */
+('\x41');
+
+/* Secuencia escapada en Unicode */
+('\u0041');
+
+console.log('\u{1F440}', '\uD83D\uDC40');
+
+/* Literales de cadena multilínea (sólo con ES5.1 e inferiores) */
+console.log(
+  'Nombre: Pablo\n\
+Apellidos: Fernández'
+);
+
+/* Literales de plantilla (sólo con ES6 y superiores) */
+console.log(`Nombre: Pablo
+Apellidos: Fernández`);
+
+var nombre = 'Pablo';
+
+console.log(
+  'Nombre: ' +
+    nombre +
+    '\n\
+Apellidos: Fernández'
+);
+
+var nombre = 'Pablo';
+
+console.log(`Nombre: ${nombre}
+Apellidos: Fernández`);
+
+// TIPO NUMBER
+Number('4');
+Number('hola');
+Number('21 calles');
+Number(1e3);
+Number(true);
+Number(false);
+
+

@@ -211,3 +211,9 @@ isFinite('hola');
 isNaN(200);
 isNaN('200');
 isNaN('hola');
+
+// Método toExponencial
+(2.1).toExponential(3)
+
+// Método toFixed
+(2.1).toFixed(3)

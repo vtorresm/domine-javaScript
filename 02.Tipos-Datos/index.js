@@ -202,18 +202,27 @@ Number(false);
 
 // Métodos
 
-// Métodos isFinite
+// Método isFinite
 isFinite(200);
 isFinite('200');
 isFinite('hola');
 
-// Métodos isNaN
+// Método isNaN
 isNaN(200);
 isNaN('200');
 isNaN('hola');
 
 // Método toExponencial
-(2.1).toExponential(3)
+(2.1).toExponential(3);
 
 // Método toFixed
-(2.1).toFixed(3)
+(2.1).toFixed(3);
+
+// Método toPrecision
+(2.1).toPrecision(4);
+(21.1).toPrecision(4);
+(0.21).toPrecision(4);
+
+// Método toString
+(2.1).toString();
+

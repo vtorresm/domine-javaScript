@@ -229,7 +229,7 @@ isNaN('hola');
 // Conversión de números
 (2.0).toString();
 (2).toString();
-2.toString();
+//2.toString();
 Number(new Date());
 
 

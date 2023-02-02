@@ -233,4 +233,22 @@ isNaN('hola');
 Number(new Date());
 
 
+// Formateado de números
+
+// Método toLocaleString
+(123456.123).toLocaleString();
+
+// Propiedad style
+
+// decimal
+// currency
+// percent
+
+var options = {
+  style: "percent",
+  miniFractionDigits: 2
+}
+
+(0.52).toLocaleString("es-ES", options);
+
 

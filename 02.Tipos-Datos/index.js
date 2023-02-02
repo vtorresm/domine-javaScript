@@ -251,4 +251,19 @@ var options = {
 
 (0.52).toLocaleString("es-ES", options);
 
+// Propiedad currency - // Propiedad currencyDisplay
+
+// symbol
+// code
+// name
+
+var options = {
+  style: "currency",
+  currency: "USD",
+  currencyDisplay: "symbol",
+  miniFractionDigits: 2
+}
+
+(123.12).toLocaleString("es-ES", options);
+
 

@@ -247,7 +247,7 @@ Number(new Date());
 var options = {
   style: "percent",
   miniFractionDigits: 2
-}
+};
 
 (0.52).toLocaleString("es-ES", options);
 
@@ -262,8 +262,48 @@ var options = {
   currency: "USD",
   currencyDisplay: "symbol",
   miniFractionDigits: 2
-}
+};
 
 (123.12).toLocaleString("es-ES", options);
 
 
+// Propiedad useGrouping
+var options = {
+  style: "decimal",
+  useGrouping: false,
+  minimumFractionDigits: 2
+};
+
+(12345.52).toLocaleString("es-ES", options);
+// Devuelve "12345,52"
+
+var options = {
+  style: "decimal",
+  useGrouping: true,
+  minimumFractionDigits: 2
+};
+
+(12345.52).toLocaleString("es-ES", options);
+
+// Propiedad minimumIntegerDigits
+var options = {
+  style: "decimal",
+  useGrouping: false,
+  minimumIntegerDigits: 5,
+  minimumFractionDigits: 2
+};
+
+(5.252).toLocaleString("es-ES", options);
+// Devuelve "0000,25"
+
+// Propiedad maximumFractionDigits
+var options = {
+  style: "decimal",
+  useGrouping: false,
+  minimumIntegerDigits: 3,
+  minimumFractionDigits: 2,
+  maximumFractionDigits: 2
+};
+
+(5.009).toLocaleString("es-ES", options);
+// Devuelve "005,01"

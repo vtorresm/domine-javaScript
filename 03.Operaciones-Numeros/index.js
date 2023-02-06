@@ -31,3 +31,16 @@ Math.SQRT1_2
 // CONSTANTE SQRT2
 // Devuelve un valor aproximado de la raíz cuadrada de 2
 Math.SQRT2
+
+// CONSTANTE abs
+// Devuelve el valor absoluto del valor indicado
+Math.abs(-1)
+
+// CONSTANTE acos
+// Devuelve el arcocoseno del valor indicado
+Math.acos(0.999)
+
+// CONSTANTE acosh
+// Devuelve el arcocoseno hiperbólico del valor indicado
+Math.acosh(2)
+

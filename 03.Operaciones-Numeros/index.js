@@ -44,3 +44,11 @@ Math.acos(0.999)
 // Devuelve el arcocoseno hiperbólico del valor indicado
 Math.acosh(2)
 
+// CONSTANTE asin
+// Devuelve el arcoseno del valor indicado
+Math.asin(0.999)
+
+// CONSTANTE asinh
+// Devuelve el arcoseno hiperbólico del valor indicado
+Math.asinh(2)
+

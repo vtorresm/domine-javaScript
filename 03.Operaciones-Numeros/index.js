@@ -52,3 +52,11 @@ Math.asin(0.999)
 // Devuelve el arcoseno hiperbólico del valor indicado
 Math.asinh(2)
 
+// CONSTANTE atan
+// Devuelve el arcoseno del valor indicado
+Math.atan(0.999)
+
+// CONSTANTE aatanh
+// Devuelve el arcoseno hiperbólico del valor indicado
+Math.atanh(0.999)
+

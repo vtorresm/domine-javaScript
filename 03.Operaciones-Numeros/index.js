@@ -60,3 +60,14 @@ Math.atan(0.999)
 // Devuelve el arcoseno hiperbólico del valor indicado
 Math.atanh(0.999)
 
+// CONSTANTE cbrt
+// Devuelve la raíz cúbica del valor indicado
+Math.cbrt(27)
+
+// CONSTANTE ceil
+// Devuelve el valor entero más pequeño redondeado hacia arriba.
+Math.ceil(-1.99)
+Math.ceil(1.99)
+
+
+

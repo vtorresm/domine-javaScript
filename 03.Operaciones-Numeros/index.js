@@ -69,5 +69,14 @@ Math.cbrt(27)
 Math.ceil(-1.99)
 Math.ceil(1.99)
 
+// CONSTANTE cos
+// Devuelve el el coseno del valor indicado.
+Math.cos(0)
+
+// CONSTANTE cosh
+// Devuelve el el coseno hiperbólico del valor indicado.
+Math.cosh(1)
+
+
 
 

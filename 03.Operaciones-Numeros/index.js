@@ -86,6 +86,19 @@ Math.exp(1)
 Math.floor(-1.99)
 Math.floor(1.99)
 
+// CONSTANTE log
+// Devuelve el logaritmo neperiano del valor indicado.
+Math.log(0)
+
+// CONSTANTE log10
+// Devuelve el logaritmo en base 10 del valor indicado.
+Math.log10(2)
+
+// CONSTANTE log2
+// Devuelve el logaritmo en base 10 del valor indicado.
+Math.log2(2)
+
+
 
 
 

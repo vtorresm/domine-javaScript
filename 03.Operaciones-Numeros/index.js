@@ -77,6 +77,15 @@ Math.cos(0)
 // Devuelve el el coseno hiperbólico del valor indicado.
 Math.cosh(1)
 
+// CONSTANTE exp
+// Devuelve la potencia de la constante de Euler elevado al valor inidcado.
+Math.exp(1)
+
+// CONSTANTE floor
+// Devuelve el valor entero más grande redondeado hacia abajo.
+Math.floor(-1.99)
+Math.floor(1.99)
+
 
 
 

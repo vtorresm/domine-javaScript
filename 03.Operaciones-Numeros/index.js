@@ -98,7 +98,13 @@ Math.log10(2)
 // Devuelve el logaritmo en base 10 del valor indicado.
 Math.log2(2)
 
+// CONSTANTE max
+// Devuelve el mayor de los valores indicados.
+Math.max(2, 3, 5, 8, -1, 6)
 
+// CONSTANTE min
+// Devuelve el menor de los valores indicados.
+Math.min(2, 3, 5, 8, -1, 6)
 
 
 

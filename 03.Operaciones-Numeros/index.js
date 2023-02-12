@@ -106,5 +106,9 @@ Math.max(2, 3, 5, 8, -1, 6)
 // Devuelve el menor de los valores indicados.
 Math.min(2, 3, 5, 8, -1, 6)
 
+// CONSTANTE pow
+// Devuelve la potencia del primer valor elevado al segundo valor o parámetro.
+Math.pow(2, 3)
+
 
 

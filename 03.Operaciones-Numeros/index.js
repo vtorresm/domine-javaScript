@@ -110,5 +110,15 @@ Math.min(2, 3, 5, 8, -1, 6)
 // Devuelve la potencia del primer valor elevado al segundo valor o parámetro.
 Math.pow(2, 3)
 
+// CONSTANTE random
+// Devuelve un valor pseudoaleatorio entre 0 y 1.Para conseguir némeros entre un máximo y mínimo, se pueden multiplicar este resultado por la diferencia entre ambos valores y sumarle el mínimo.
+
+// Devuleve un valor decimal entre max y min
+Math.random()
+// Devuleve un valor decimal entre max y min
+Math.random() * (max - min) + min
+// Devuleve un valor decimal entre max y min
+Math.trunc(Math.random() * (max - min)) + min
+
 
 

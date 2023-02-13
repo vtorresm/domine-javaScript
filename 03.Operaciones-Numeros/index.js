@@ -120,5 +120,10 @@ Math.random() * (max - min) + min
 // Devuleve un valor decimal entre max y min
 Math.trunc(Math.random() * (max - min)) + min
 
+// CONSTANTE round
+// Devuelve el valor redondeado al entero más cercano.
+Math.round(-1.09)
+Math.round(1.09)
+Math.round(1.59)
 
 

@@ -126,4 +126,10 @@ Math.round(-1.09)
 Math.round(1.09)
 Math.round(1.59)
 
+// CONSTANTE sign
+// Devuelve el signo del valor indicado expresado en forma de -1, 0 ó 1.
+Math.sign(-99)
+Math.sign(0)
+Math.sign(99)
+
 

@@ -143,3 +143,16 @@ Math.sinh(1);
 // CONSTANTE sqrt
 // Devuelve el seno del valor indicado.
 Math.sqrt(2);
+
+// CONSTANTE tan
+// Devuelve la tangente del valor indicado.
+Math.tan(1);
+
+// CONSTANTE tanh
+// Devuelve la tangente hiperbólica del valor indicado.
+Math.tanh(1);
+
+// CONSTANTE trune
+// Devuelve la tangente del valor indicado.
+Math.trune(1.09);
+

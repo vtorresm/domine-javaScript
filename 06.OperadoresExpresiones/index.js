@@ -64,3 +64,7 @@ let h = g++;
 
 console.log(g);
 console.log(h);
+
+//ORDEN DE LOS OPERADORES
+3 + 5 * 2
+(3 + 5) * 2

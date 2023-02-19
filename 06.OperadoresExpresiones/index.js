@@ -38,3 +38,29 @@ true % '2';
 // OPERADOR DE EXPONENCIACIÓN
 2 ** 3;
 '2' ** '3';
+
+//OPERADOR DE INCREMENTO
+let a = 0;
+let b = ++a;
+
+console.log(a);
+console.log(b);
+
+let c = 0;
+let d = a++;
+
+console.log(c);
+console.log(d);
+
+//OPERADOR DE DECREMENTO
+let e = 1;
+let f = --e;
+
+console.log(e);
+console.log(f);
+
+let g = 1;
+let h = g++;
+
+console.log(g);
+console.log(h);

@@ -29,3 +29,12 @@ true * '2';
 8 / 2;
 '8' / '2';
 true / '2';
+
+// OPERADOR DE RESTO, MÓDULO O RESIDUO
+20 % 3;
+'20' % '3';
+true % '2';
+
+// OPERADOR DE EXPONENCIACIÓN
+2 ** 3;
+'2' ** '3';

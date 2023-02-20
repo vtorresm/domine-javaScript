@@ -66,5 +66,30 @@ console.log(g);
 console.log(h);
 
 //ORDEN DE LOS OPERADORES
-3 + 5 * 2
-(3 + 5) * 2
+3 + 5 * 2;
+(3 + 5) * 2;
+
+//OPERADORES LÓGICOS
+//OPERADOR AND
+true && true;
+true && false;
+false && true;
+false && false;
+false && (3 == 4);
+"Hola" && "Mundo";
+
+//OPERADOR OR
+true || true;
+true || false;
+false || true;
+false || false;
+false || (3 == 4);
+"Hola" || "Mundo";
+
+//OPERADOR NOT
+!true;
+!false;
+!(3 == 3);
+!(3 == 4);
+!"Hola"
+

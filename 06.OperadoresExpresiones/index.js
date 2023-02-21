@@ -93,3 +93,20 @@ false || (3 == 4);
 !(3 == 4);
 !"Hola"
 
+//OPERADORES CONDICIONALES
+//OPERADOR DE IGUALDAD
+true == true;
+true == false;
+false == true;
+false == false;
+1 == (2 - "1");
+1 == (2 + "1");
+
+//OPERADOR DE DESIGUALDAD
+true != true;
+true != false;
+false != true;
+false != false;
+
+
+

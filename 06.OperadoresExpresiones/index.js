@@ -115,4 +115,8 @@ false != false;
 "5" <="6";
 
 //OPERADOR TERNARIO
-var aux = value == 'on' ? 'class="checked"' : '';
+// condición ? expresión1 : expresión2
+
+const num = 7;
+const mensaje = num % 2 === 0 ? "El número es par" : "El número es impar";
+console.log(mensaje);

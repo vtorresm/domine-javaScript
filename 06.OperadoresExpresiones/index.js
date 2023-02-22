@@ -120,3 +120,22 @@ false != false;
 const num = 7;
 const mensaje = num % 2 === 0 ? "El número es par" : "El número es impar";
 console.log(mensaje);
+
+//OPERADOR BIT A BIT
+//OPERADOR AND
+let b1 = 12;
+let b2 = 4;
+let b3 = b1 & b2;
+console.log(b3);
+
+//OPERADOR OR
+let bb1 = 12;
+let bb2 = 4;
+let bb3 = bb1 | bb2;
+console.log(bb3);
+
+//OPERADOR XOR
+let b11 = 12;
+let b22 = 4;
+let b33 = b11 ^ b22;
+console.log(b33);

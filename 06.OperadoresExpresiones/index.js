@@ -114,3 +114,5 @@ false != false;
 "5" >="6";
 "5" <="6";
 
+//OPERADOR TERNARIO
+var aux = value == 'on' ? 'class="checked"' : '';

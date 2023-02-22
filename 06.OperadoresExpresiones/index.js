@@ -108,5 +108,9 @@ true != false;
 false != true;
 false != false;
 
-
+//OPERADOR DE SUPERIORIDAD E INFERIORIDAD
+5 >=6;
+5 <=6;
+"5" >="6";
+"5" <="6";
 

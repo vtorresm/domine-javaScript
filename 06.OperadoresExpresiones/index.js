@@ -139,3 +139,13 @@ let b11 = 12;
 let b22 = 4;
 let b33 = b11 ^ b22;
 console.log(b33);
+
+//OPERADOR DE DESPLAZAMIENTO
+4 >> 2
+4 << 2
+
+//OPERADOR COMA
+//El operador comoa puede servir para separar expresiones cuando se realizan declaraciones.
+var i = 0, j = 10;
+i = j + 2;
+

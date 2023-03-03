@@ -29,3 +29,11 @@ if (typeof arguments[0] == 'object') {
 } else {
   fecha = new Date(aux);
 }
+
+//CONTROL DE ERRORES POR PRESENCIA
+console.log('insertRule' in document.styleSheets[0]);
+
+//SI ES UN JSON
+var json = { nombre: 'Pablo', edad: 18};
+console.log(json.hasOwnProperty("apellidos"));
+console.log(json.hasOwnProperty("nombre"));
